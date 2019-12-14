@@ -1,5 +1,5 @@
 body {
-  width: 375px;
+  width: 100%;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -7,6 +7,14 @@ body {
 
 h1 {
   color: #494c5f; }
+
+.menu input {
+  display: none; }
+
+.slider {
+  width: 20px;
+  height: 40px;
+  border: 1px solid black; }
 
 h2 {
   font-size: 4rem; }
@@ -18,7 +26,8 @@ span {
 .wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  padding: 40px; }
 
 .box {
   border: 1px solid #f6f6fe;
@@ -27,11 +36,10 @@ span {
   padding-right: 20px;
   padding-bottom: 60px;
   padding-left: 20px;
-  width: 280px;
+  width: 100%;
   height: 350px;
   border-radius: 10px;
-  background-image: linear-gradient(#a3a8f0, #696fdd);
-  color: white; }
+  color: #494c5f; }
   .box__price, .box__storage, .box__users, .box__send {
     border-bottom: 1px solid #b3b5c6;
     padding-bottom: 10px;
@@ -45,8 +53,16 @@ span {
     margin-left: 20px;
     padding-bottom: 10px;
     border-radius: 5px;
-    background-color: white;
-    color: #696fdd; }
+    background-image: linear-gradient(#a3a8f0, #696fdd);
+    color: white; }
+
+.box2 {
+  background-image: linear-gradient(#a3a8f0, #696fdd);
+  color: white; }
+  .box2__2learn {
+    background-image: none;
+    color: #696fdd;
+    background-color: white; }
 
 .attribution {
   font-size: 11px;
